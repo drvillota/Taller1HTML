@@ -1,7 +1,25 @@
+html {
+  background-color: rgb(24, 18, 18);
+  margin: auto;
+}
 div {
   font-family: Lato;
   position: static;
+  color: aliceblue
 }
-.Intro {
-
+#titulo {
+  color: antiquewhite
+}
+h1 {
+  color: antiquewhite
+}
+h2 {
+  color: antiquewhite
+}
+h3 {
+  color: antiquewhite
+}
+#DaftPunkDuo {
+  width: 590px;
+  height: 600px; 
 }
