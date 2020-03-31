@@ -19,7 +19,51 @@ h2 {
 h3 {
   color: antiquewhite
 }
+
+#discografia {
+  margin-top: 25px;
+  margin-bottom: 2px;
+}
+
 #DaftPunkDuo {
+  margin-top: 10px;
+  margin-bottom: 70px;
   width: 590px;
   height: 600px; 
+}
+#Hwrk {
+  width: 400px;
+  height: 400px;
+}
+#Discovery {
+  width: 200px;
+  height: 200px;
+}
+#DftClub {
+  width: 200px;
+  height: 200px;
+}
+#Hmn {
+  width: 200px;
+  height: 200px;
+}
+#Msq {
+  width: 200px;
+  height: 200px;
+}
+#Alive {
+  width: 200px;
+  height: 200px;
+}
+#Tron {
+  width: 200px;
+  height: 200px;
+}
+#TronRCFG {
+  width: 200px;
+  height: 200px;
+}
+#RAM {
+  width: 200px;
+  height: 200px;
 }

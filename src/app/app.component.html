@@ -4,8 +4,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </head>
 
-  <body style = "background-color: rgb(24, 18, 18)">
-    <legends topic="{{ topic }}" id = "titulo"></legends>
+	 <body style = "background-color: rgb(24, 18, 18)">
+    <legends align="center" topic="{{ topic }}" id = "titulo"></legends>
     <div class = "Contenido">
       <h2 id = "inicio">Contenido</h2>
       <ul>
@@ -21,36 +21,82 @@
         Daft Punk, dúo frances ,conformado por Guy-Manuel de Homem-Christo y  Thomas Bangalter, con inicios en 1993; Leyendas y pioneros del French-House.
       </p>
     </div>
-    
-    <div id = "integrantes">
-      <div>
-        <dl>
-          <img id = "DaftPunkDuo" src = "https://cdn.jsdelivr.net/gh/drvillota/Taller1HTML@master/Docs/Integrantes/DaftPunkDuo.jpg">
-          
-          <dt><h3>Thomas Bangalter</h3></dt>
-          <dd>
-            <img src = "https://cdn.jsdelivr.net/gh/drvillota/Taller1HTML@master/Docs/Integrantes/Thomas%20Bangalter.jpg">
-          </dd>
-          
-          <dt><h3>Guy-Manuel de Homem-Christo</h3></dt>
-          <dd>
-            <img src = "https://cdn.jsdelivr.net/gh/drvillota/Taller1HTML@master/Docs/Integrantes/Guy-Manuel%20de%20Homem-Christo.jpg">
-          </dd>
 
+    <div align = "center" id = "integrantes">
+      <img id = "DaftPunkDuo" src = "https://cdn.jsdelivr.net/gh/drvillota/Taller1HTML@master/Docs/Integrantes/DaftPunkDuo.jpg">
+    </div>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <dl align = "center">
+            <dt><h3>Thomas Bangalter</h3></dt>
+            <dd>
+              <img src = "https://cdn.jsdelivr.net/gh/drvillota/Taller1HTML@master/Docs/Integrantes/Thomas%20Bangalter.jpg">
+            </dd>
           </dl>
+        </div>
+
+        <div class="col-sm">
+          <dl align = "center">
+            <dt><h3>Guy-Manuel de Homem-Christo</h3></dt>
+            <dd>
+              <img src = "https://cdn.jsdelivr.net/gh/drvillota/Taller1HTML@master/Docs/Integrantes/Guy-Manuel%20de%20Homem-Christo.jpg">
+            </dd>
+          </dl>
+        </div>
       </div>
     </div>
+
     
     <div class = "Discografia" id = "discografia">
-      <h2>Discografía</h2>
+      <h2 align = center>Discografía</h2>
+      <table class="egt">
+        <tr>
+          <td rowspan="2">
+            <img id="Hwrk" title="Homework-1997" src = "https://cdn.jsdelivr.net/gh/drvillota/Taller1HTML@master/Docs/Discografia/Homework-Cover.jpg">
+          </td>
+          <td>
+            <img id="Discovery" title="Discovery-2001" src =
+            "https://cdn.jsdelivr.net/gh/drvillota/Taller1HTML@master/Docs/Discografia/Discovery-Cover.jpg">
+          </td>
+          <td>
+            <img id="DftClub" title="Daft Club-2003" src =
+            "https://cdn.jsdelivr.net/gh/drvillota/Taller1HTML@master/Docs/Discografia/Daft-Club-Cover.jpg">
+          </td>
+          <td>
+            <img id="Hmn" title="Human After All-2005" src =
+            "https://cdn.jsdelivr.net/gh/drvillota/Taller1HTML@master/Docs/Discografia/Human-After-All-Cover.jpg">
+          </td>
+          <td>
+            <img id="Msq" title="Musique Vol.1-2006" src =
+            "https://cdn.jsdelivr.net/gh/drvillota/Taller1HTML@master/Docs/Discografia/Musique-Cover.jpg">
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <img id="Alive" title="Alive 2007-2007" src =
+            "https://cdn.jsdelivr.net/gh/drvillota/Taller1HTML@master/Docs/Discografia/Alive-2007-Cover.jpg">
+          </td>
+          <td>
+            <img id="Tron" title="Tron: Legacy-2010" src =
+            "https://cdn.jsdelivr.net/gh/drvillota/Taller1HTML@master/Docs/Discografia/Tron-Legacy-Cover.jpg">
+          </td>
+          <td>
+            <img id="TronRCFG" title="Tron: Legacy Reconfigured-2011" src =
+            "https://cdn.jsdelivr.net/gh/drvillota/Taller1HTML@master/Docs/Discografia/Tron-Legacy-Reconfigured-Cover.jpg">
+          </td>
+          <td>
+            <img id="RAM" title="Random Access Memories-2013" src =
+            "https://cdn.jsdelivr.net/gh/drvillota/Taller1HTML@master/Docs/Discografia/RAM-Cover.jpg">
+          </td>
+        </tr>
+      </table>
     </div> 
     
-    <div class = "ContDiscografia">
-      Imagenes discografía
-    </div>
-    
     <div class = "Fuentes" id = "fuentes">
-      <h2>Fuentes</h2>
+      <h2 align = "center">Fuentes</h2>
       <dl>
         <dt>Wikipedia</dt>
         <dd>
@@ -63,19 +109,5 @@
     <div>
       <a target = "_blank" href = "#intro">Inicio</a>
     </div>
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-  </div>
-</div>
   </body>
 </html>
